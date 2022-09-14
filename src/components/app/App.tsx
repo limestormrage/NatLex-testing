@@ -9,7 +9,7 @@ function App(): JSX.Element {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path={AppRoute.ViewMode} element={<Layout />}>
+        <Route path={AppRoute.Main} element={<Layout />}>
           <Route index element={<ViewModePage />} />
           <Route path={AppRoute.Settings} element={<SettingsPage />} />
         </Route>
