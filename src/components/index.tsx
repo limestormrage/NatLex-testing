@@ -1,1 +1,2 @@
-export * from './graphs-list/graphs-list';
+export * from './charts-list/charts-list';
+export * from './chart/chart';
